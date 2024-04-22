@@ -1,3 +1,13 @@
+
+/* colors: orange  #F7ccad
+            greeen  #4B644A
+            linen   #F7EDE2
+            hellblau #7389AE
+            dunkelblau #235789
+ */
+
+
+
 /* ----------- CSS RESET --------- */
 
 * {
@@ -140,28 +150,28 @@ section { position: relative; }
 
 
 
-
-header,
-footer{
-    background-color: lightgrey;
-    padding: 5%;
-}
-
-section{
-    padding: 5%;
-}
-
-
-
-
 .left    { text-align: left; }
 .right   { text-align: right; }
 .center  { text-align: center; }
 .uppercase    { text-transform: uppercase; }
 
+
+
+header,
+footer{
+    background-color: #FAB498;
+    padding: 5%;
+}
+
+
+
+
+
+
 body {
   font-family: 'Mulish', serif;  /* Add your font here */ 
   color: black;
+  background-color: #FAB498;
      }
 
 h2, h3, h4, h5, h6 {
@@ -180,7 +190,7 @@ p, li {
   margin-bottom: 1rem;
   font-family: 'Martel', serif; 
   font-weight: 200;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 h2:last-child, 
@@ -192,6 +202,18 @@ p:last-child {
 	margin-bottom: 0;
 }
 
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: #95C7C2;
+}
+
+
+
 /* Unique Typography Styles  */
 .emphasis       { font-size: 1.2rem; }
 .text-featured  { color: var(--featured-text);}
@@ -200,18 +222,50 @@ p:last-child {
 .subtitle       { font-size: 0.8rem; }
 
 
+.text-small{ font-size: 1.4rem;}
+.text-medium{ font-size: 2.2rem;}
+.text-big{ font-size: 2.8rem;}
+
+
+
+
+
 .bg-image{
     display: block;
     background-color: black;
 
 }
 
-.bg-community{
-    display: block;
-    background-color: black;
-    background-size:cover;
-    background-position:center;
-    background-repeat: no-repeat;
-   
-    padding: 15rem;
+
+
+
+/* circular text */
+svg { width: 100%; }
+svg textPath { 
+  font-size: 2rem;
+	font-family: inherit;
+	text-transform: uppercase;
+	letter-spacing: 20px;
+	fill: #111;
+  background: #333;
+}
+
+.circle-text{
+        position: absolute;
+        top: 25%;
+        left:8%;
+}
+
+
+.circle-text1{
+    position: absolute;
+    top: 60%;
+    right:8%;
+}
+
+
+/* position */
+
+.parent{
+    position: relative;
 }
