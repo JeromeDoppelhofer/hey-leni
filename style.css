@@ -159,7 +159,7 @@ section { position: relative; }
 
 header,
 footer{
-    background-color: #FAB498;
+    background-color: #E2AD37;
     padding: 5%;
 }
 
@@ -269,3 +269,7 @@ svg textPath {
 .parent{
     position: relative;
 }
+
+
+/* wave */
+
