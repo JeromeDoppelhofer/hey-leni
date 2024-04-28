@@ -1,9 +1,12 @@
 
-/* colors: orange  #F7ccad
-            greeen  #4B644A
-            linen   #F7EDE2
-            hellblau #7389AE
-            dunkelblau #235789
+/* colors: orange    #F49445
+           bg light  #FFCE84
+           body      #F7CCAB
+
+            
+            
+           
+            
  */
 
 
@@ -160,7 +163,7 @@ section { position: relative; }
 header,
 footer{
     background-color: #FFCE84;
-    padding: 5%;
+    
 }
 
 
@@ -206,6 +209,7 @@ p:last-child {
 a{
     text-decoration: none;
     color: inherit;
+    display: inline-block;
 }
 
 a:hover{
@@ -228,7 +232,7 @@ a:hover{
 
 
 
-
+/* bsckgrounds */
 
 .bg-image{
     display: block;
@@ -272,6 +276,7 @@ svg textPath {
         top: 25%;
         left:8%;
         z-index: 2;
+        
 }
 
 
@@ -296,13 +301,23 @@ svg textPath {
   right: 0;
   left:0;
   z-index: 99;
-  padding: 1rem;
+ 
   min-height: 17vh;
 
 }
 
 
-/* wave */
+/* images */
+
+.bg-logo{
+  background-image: url('images/Freigestellt.png');
+  display: inline-block;
+  background-size:contain;
+  background-position: center;
+  padding: 5%;
+  background-repeat: no-repeat;
+
+        }
 
 
 
@@ -312,7 +327,7 @@ svg textPath {
   border: 2px solid black;
   border-radius: 15rem;
   padding: 2rem;
-  background-color:beige;
+  background-color:  #FFCE84;
   position: absolute;
   top: 35%;
   right: 10%;
