@@ -159,7 +159,7 @@ section { position: relative; }
 
 header,
 footer{
-    background-color: #E2AD37;
+    background-color: #FFCE84;
     padding: 5%;
 }
 
@@ -171,7 +171,7 @@ footer{
 body {
   font-family: 'Mulish', serif;  /* Add your font here */ 
   color: black;
-  background-color: #FAB498;
+  background-color: #F7CCAB;
      }
 
 h2, h3, h4, h5, h6 {
@@ -236,6 +236,23 @@ a:hover{
 
 }
 
+.bg-light{
+  background-color:#FFCE84;
+}
+
+.bg-dark{
+  background-color: #F49445;
+}
+
+.bg-split{
+  background: rgb(247,204,171);
+  background: linear-gradient(90deg, rgba(247,204,171,1) 50%, rgba(244,148,69,1) 50%); 
+}
+
+.bg-split1{
+  background: rgb(247,204,171);
+  background: linear-gradient(270deg, rgba(247,204,171,1) 50%, rgba(244,148,69,1) 50%); 
+}
 
 
 
@@ -254,6 +271,7 @@ svg textPath {
         position: absolute;
         top: 25%;
         left:8%;
+        z-index: 2;
 }
 
 
@@ -272,4 +290,20 @@ svg textPath {
 
 
 /* wave */
+
+
+
+/* buttons */
+
+.cta-btn{
+  border: 2px solid black;
+  border-radius: 15rem;
+  padding: 2rem;
+  background-color:beige;
+  position: absolute;
+  top: 35%;
+  right: 10%;
+}
+
+
 
