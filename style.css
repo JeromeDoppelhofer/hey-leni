@@ -240,6 +240,7 @@ a:hover{
 
 }
 
+
 .bg-light{
   background-color:#FFCE84;
 }
@@ -274,7 +275,7 @@ svg textPath {
 .circle-text{
         position: absolute;
         top: 25%;
-        left:8%;
+        left:18%;
         z-index: 2;
         
 }
@@ -282,7 +283,7 @@ svg textPath {
 
 .circle-text1{
     position: absolute;
-    top: 60%;
+    top: 10%;
     right:8%;
 }
 
@@ -319,6 +320,30 @@ svg textPath {
 
         }
 
+.bg-blob{
+  background-image: url('images/blob.png');
+  display: inline-block;
+  background-size:cover;
+  padding: 5%;
+  position: absolute;
+  top: -3%;
+  right: 15%;
+  padding: 20rem;
+
+}
+
+.bg-leaf{
+  background-image: url('images/leaf.png');
+  display: inline-block;
+  background-size:cover;
+  padding: 5%;
+  position: absolute;
+  top: 33%;
+  left: 8%;
+  padding: 22rem;
+
+}
+
 
 
 /* buttons */
@@ -332,6 +357,7 @@ svg textPath {
   top: 35%;
   right: 10%;
 }
+
 
 
 
