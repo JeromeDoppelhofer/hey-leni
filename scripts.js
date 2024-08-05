@@ -1,33 +1,47 @@
 // A (document) .ready() block.
-$ (document) .ready(function(){
 
-    
-    window.onscroll = function() {scrollFunction()};
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-    function scrollFunction() {
-        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        document.getElementById("navbar1").style.padding = "30px 10px";
-        document.getElementById("logo1").style.fontSize = "25px";
-        } else {
-        document.getElementById("navbar1").style.padding = "80px 10px";
-        document.getElementById("logo1").style.fontSize = "35px";
+
+$(function(){
+    $('#navbar1').data('size','big');
+});
+
+$(window).scroll(function(){
+    if($(document).scrollTop() > 0)
+    {
+        if($('#navbar1').data('size') == 'big')
+        {
+            $('#navbar1').data('size','small');
+            $('#navbar1').stop().animate({
+                height:'40px'
+            },600);
         }
-    } 
-
-
-
-
-
-
-
-
-
-
-
-// Animate on scroll activate
-AOS.init({
-    duration: 500 // values from 0-3000 with 50ms 
+    }
+    else
+    {
+        if($('#navbar1').data('size') == 'small')
+        {
+            $('#navbar1').data('size','big');
+            $('#navbar1').stop().animate({
+                height:'100px'
+            },600);
+        }  
+    }
 });
 
 
-});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
