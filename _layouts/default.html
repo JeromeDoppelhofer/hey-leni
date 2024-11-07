@@ -46,27 +46,34 @@
 
 <!--------------footer----------------------->
 
-    <section class="grid md:grid-cols-2 p-5p">
-        <div class="p-5p">
+    <section class="grid-spaceBetween">
+
+        <div class="col-3 p-5p">
           <h2> Get In Touch </h2>
           <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           <p> <strong> Email: </strong> hello@company.com </p>
           <p> <strong> Phone: </strong> 0412 555 555 </p>
           <p> <strong> Facebook: </strong> fb.com/companyname </p>
         </div>
-        <div class="self-center p-5p">
-          <form class="grid md:grid-cols-2  gap-4" action="https://formspree.io/hello@company.com" method="POST">
-            <div class="">
+
+        <div class="grid col-7 right">
+          <form class="" action="https://formspree.io/hello@company.com" method="POST">
+            <div class="col-12">
               <input type="text" name="name" placeholder="Your Name">
-            </div>
-            <div class="">
+              </div>
+              <div class="col-12">
               <input type="email" name="_replyto" placeholder="Your Email">
-            </div>
-            <div class="col-span-full">
+                </div>
+
+              <div class="col-12">
               <textarea placeholder="Your Message" class="mb-4"></textarea>
+              </div>
+              <div class="col-12">
               <input type="submit" value="Send" class="button">
-            </div>
-          </form>
+              </div>
+            
+           </form>
+
         </div>
       </section>
 

@@ -216,3 +216,23 @@
         background-color: rgb(60, 60, 60);
         border-color: rgb(60, 60, 60);
       }
+
+      /* animations */
+
+
+      #curve{
+        fill:transparent;
+      }
+
+
+      .text{
+        color: black;
+        transform-origin: 50% 50%;
+        animation: rotate 15s linear infinite;
+
+      }
+
+      @keyframes rotate{
+        from { transform: rotateZ(0deg);}
+        to   { transform: rotateZ(360deg);}
+      }
