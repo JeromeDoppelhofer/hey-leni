@@ -2,4 +2,152 @@
 layout: default
 title: Homepage
 ---
-<h1>Welcome to your homepage!</h1>
+
+<header class="navbar">
+    {% include header.html%}
+</header>
+
+
+
+<section class="grid-spaceBetween tall-100 padded-t-10 padded-b-10">
+    <div class="col-3_md-12 padded">
+        <h1>We are HEY LENI</h1>
+    </div>
+ 
+    
+    <div class="col-8_md-12 left parent">
+        <div class="bg-us"></div>
+        <div class="circle-text ">
+            <svg viewBox="0 0 500 800">
+          
+            <defs>
+              <path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="textcircle">
+                  <animateTransform
+                      attributeName="transform"
+                      begin="0s"
+                      dur="30s"
+                      type="rotate"
+                      from="0 250 250"
+                      to="360 250 250"
+                      repeatCount="indefinite" 
+                      />
+              </path>
+            </defs>
+              <text dy="70" textLength="1220">
+                  <textPath xlink:href="#textcircle">Hey Leni Design Studio</textPath>
+              </text>
+          </svg>
+        </div>
+    </div>
+
+    <!-- <div class="col-2"></div> -->
+    
+
+
+</section>
+
+<section class="grid tall-100 padded parent ">
+    
+
+
+
+
+
+    <div class="col-5">
+        <h2>Our mission.</h2>
+        <p>We made it our mission to help busineses be seen in the online world and stand out with a unique personalized website. All too often we come across too busy and unnecasarry complicated designed websites that not only distract potential customers from what they are looking for, but also are hard to navigate.  </p>
+    </div>
+    
+
+    <div class="col-7">
+        <div class="bg-blob"></div>
+        <div class="bg-laptop"></div>
+    </div>
+   </section>
+
+   <section class="grid tall-100 padded parent ">
+    
+    <div class="col-7">
+        <div class="bg-leaf "></div>
+    </div>
+
+    <div class="col-5 right">
+        <h2>Our way.</h2>
+        <p>After a quick consulting call or in person meeting where we get to know your business, goals and needs, we come up with a design that will work for you, your customers and the internt. A well coded and designed website means nothing if it doesn't reach your target customer.</p>
+    </div>
+
+    <div class="col-12 tall-40"></div>
+   
+
+    </section>
+
+<section class="grid-spaceBetween tall-100 padded parent " id="why">
+    <div class="col-12" id="why"></div>
+    <div class="col-5">
+        <h2>Our why.</h2>
+        <p>The online world has changed a lot in the past years, and building your own website with a building block system has never been easier. Hard coded websites however, have a few major benefits. Starting at more flexibility and creative freedom to undoubtfully more security. Besides being more secure, a propperly coded website has less loading time and is less likely to struggle with bugs. We want your website to be easily found, easily navigatet and most importantly keep potential clients long enough engaged so they end up choosing you.</p>
+    </div>
+
+    <div class=" circle-text1">
+        <svg viewBox="0 0 500 800">
+           
+          <defs>
+              <path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="textcircle">
+                  <animateTransform
+                      attributeName="transform"
+                      begin="0s"
+                      dur="30s"
+                      type="rotate"
+                      from="0 250 250"
+                      to="360 250 250"
+                      repeatCount="indefinite" 
+                      />
+              </path>
+          </defs>
+              <text dy="70" textLength="1220">
+                  <textPath xlink:href="#textcircle">Hey Leni Design Studio</textPath>
+              </text>
+          </svg>
+    </div>
+
+
+</section>
+
+<!--------Banner-------------------->
+<section class="grid center ">
+
+
+    <div class="col-12 bg-light padded">
+        <h4>Websites are like storefronts,<br> simple and classy > busy and messy.</h4>
+
+    </div>
+
+</section>
+
+<!-----------hook section----------------->
+<section class="grid padded tall-100 parent">
+
+    <div class="col-4 padded">
+        <h3>Still not sure?</h3>
+        <p>Hit us up and we can chat about your specific situation. Wether you need a BIG multiple page website, just an extended business card or something in between - we find the perfect solution for your needs.</p>
+    </div>
+
+    <div class="col-4-bottom padded">
+        <h3>Free consultation</h3>
+        <p>The first consultation is absolutely free - no hidden cost. So there is no pressure or harm done in finding out what you need and if we're a good fit. Oh and BTW we make great conversations and are always excited to hear stories and talk about businesses.</p>
+    </div>
+
+    <div>
+        <a href="#" class="cta-btn text-small">
+            click me for a good convo
+        </a>
+    </div>
+
+</section>
+
+
+<footer class="grid padded">
+
+    {% include footer.html %}
+
+</footer>
